@@ -1,0 +1,29 @@
+{
+    "plugins": [
+        "node_modules/jsdoc/plugins/markdown",
+        "node_modules/jsdoc/plugins/commentsOnly"
+    ],
+    "markdown": {
+        "parser": "gfm",
+        "hardwrap": true
+    },
+     "source": {
+            "includePattern": ".*\\.(js|html)$",
+            "include": [
+                "./src",
+                "./src/test"
+            ]
+     },    
+    "opts": {
+            "recurse": true,
+            "template": "node_modules/jsdoc/templates/default",
+            "destination": "./doc"
+    },
+    "templates": {
+        "cleverLinks": false,
+        "default": {
+            "outputSourceFiles": true
+        },
+        "monospaceLinks": false
+    }
+}

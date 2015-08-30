@@ -1,0 +1,11 @@
+{
+    "name": "sample-jsdoc.js",
+    "preferGlobal": false,
+    "version": "0.0.1",
+    "author": "Simple example",
+    "description": "Simple description.",
+    "dependencies": {
+        "jsdoc": "git+https://github.com/jsdoc3/jsdoc.git"
+    }
+}
+
